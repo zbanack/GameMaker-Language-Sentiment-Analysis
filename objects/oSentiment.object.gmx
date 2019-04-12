@@ -45,11 +45,11 @@ recent_negator = undefined;
 
 booster_pos = ds_list_create();
 booster_neg = ds_list_create();
-punctuation = ds_list_create();
+negators = ds_list_create();
 
 raw_data_to_list(data, booster_pos, "boosters_pos");
 raw_data_to_list(data, booster_neg, "boosters_neg");
-raw_data_to_list(data, punctuation, "punctuation");
+raw_data_to_list(data, negators, "negators");
 prompt_input();
 </string>
           </argument>
